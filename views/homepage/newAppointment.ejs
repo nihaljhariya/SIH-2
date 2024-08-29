@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarva Swasth</title>
+</head>
+<body>
+    <h2>Book Your Appointment</h2>
+    <form method="POST" action="/swasth">
+        <input name="patients[patient]" placeholder="Full name" type="text"/>
+        <br/> <br/>
+        <input name="patients[email]" placeholder="Email ID" type="text"/>
+        <br/> <br/>
+        <input name="patients[mobile]" placeholder="Mobile no." type="number"/>
+        <br/> <br/>
+        <input name="patients[age]" placeholder="Age" type="number"/>
+        <br/> <br/>
+        <input name="patients[gender]" placeholder="Gender" type="text"/>
+        <br/> <br/>
+        <textarea name="patients[message]" placeholder="Write description about your condition" rows="4" cols="50"></textarea>
+        <br/> <br/>
+        <button>Pay</button>
+    </form>
+    
+</body>
+</html>
